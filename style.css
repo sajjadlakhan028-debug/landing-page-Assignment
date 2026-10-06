@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    padding: 20px 50px;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.logo span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.main {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.main ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.main ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main ul li a:hover {
+    color: orange;
+}
+
+/* Image */
+.Logo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Logo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Center Text */
+.center-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.center-text h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+#bt1,
+#bt2 {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#bt1 {
+    background-color: orange;
+    color: black;
+}
+
+#bt2 {
+    border: 1px solid white;
+    color: white;
+}
